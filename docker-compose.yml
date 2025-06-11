@@ -1,0 +1,12 @@
+version: '3.8'
+
+    services:
+      ai-cybersecurity-lab:
+        build: .
+        container_name: ai_cybersecurity_lab
+        volumes:
+          - .:/app
+        working_dir: /app
+        tty: true
+        stdin_open: true
+        command: /bin/bash

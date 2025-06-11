@@ -1,0 +1,12 @@
+pandas
+scikit-learn
+numpy
+matplotlib
+seaborn
+flask
+joblib
+requests
+pyyaml
+docker
+mythril
+slither-analyzer
