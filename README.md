@@ -143,7 +143,7 @@ This project is licensed under the MIT License — free to use, distribute, and 
 ---
 🙌 Contributors & Community
 Author: UMBA YANGA IVON EXAUCE
-🎓 PhD Scholar in AI & Blockchain Security
+🎓 AI & Blockchain Security
 🌐 umbaconsulting.com
 📧 umbayanga6bio@gmail.com
 
