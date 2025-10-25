@@ -53,8 +53,8 @@ AI-Cybersecurity-lab-2.0/
 Clone and launch with Docker Compose:
 
 ```bash
-git clone https://github.com/ivonexauce/AI-Cybersecurity-lab-2.0.git
-cd AI-Cybersecurity-lab-2.0
+git clone https://github.com/ivonexauce/AI-Cybersecurity-lab-2.1.git
+cd AI-Cybersecurity-lab-2.1
 docker-compose up --build
 ```
 
