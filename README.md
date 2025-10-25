@@ -1,7 +1,7 @@
-# 🛡️ AI-Cybersecurity-Lab 2.0
+# 🛡️ AI-Cybersecurity-Lab 2.1
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-**AI-Cybersecurity-Lab 2.0** is an advanced, modular cybersecurity laboratory integrating **Artificial Intelligence (AI)**, **Suricata**, **Zeek**, and **Ethereum smart contract auditing**. It is designed to simulate real-world cyber environments, evaluate threats, and test defense strategies.
+**AI-Cybersecurity-Lab 2.1** is an advanced, modular cybersecurity laboratory integrating **Artificial Intelligence (AI)**, **Suricata**, **Zeek**, and **Ethereum smart contract auditing**. It is designed to simulate real-world cyber environments, evaluate threats, and test defense strategies.
 
 ---
 
