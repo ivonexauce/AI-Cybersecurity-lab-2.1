@@ -141,10 +141,15 @@ pip install -r requirements.txt
 📜 License
 This project is licensed under the MIT License — free to use, distribute, and modify.
 ---
-🙌 Contributors & Community
-Author: UMBA YANGA IVON EXAUCE
-🎓 AI & Blockchain Security
-🌐 umbaconsulting.com
-📧 umbayanga6bio@gmail.com
+## 🙌 Contributors & Community
 
-“Combining AI and cybersecurity isn't just a trend—it's a necessity for modern digital defense.” – Ivon Exauce Umba
+### UMBA YANGA IVON EXAUCE  
+**Deep-Tech Systems Architect & Innovation Strategist**  
+Founder & CEO UMBA Consulting Engineers  
+
+🎓 AI • Blockchain Security • Computational Nanoscience • Smart Enterprise Systems  
+🌐 umbaconsulting.com  
+📧 umbayanga6bio@gmail.com  
+
+> “The future belongs to intelligent, secure, and sustainable systems built with vision, innovation, and trust.”  
+
