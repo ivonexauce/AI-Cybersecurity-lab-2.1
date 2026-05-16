@@ -1,6 +1,23 @@
-{
-                "timestamp": "2025-06-12T00:00:00Z",
-                "src_ip": "192.168.1.2",
-                "dest_ip": "10.0.0.5",
-                "severity": 3
-            }
+[
+    {
+        "timestamp": "2025-06-12T00:00:00Z",
+        "src_ip": "192.168.1.2",
+        "dest_ip": "10.0.0.5",
+        "severity": 3,
+        "category": "MALWARE"
+    },
+    {
+        "timestamp": "2025-06-12T00:05:00Z",
+        "src_ip": "10.0.0.5",
+        "dest_ip": "203.0.113.50",
+        "severity": 7,
+        "category": "ATTEMPTED-ADMIN"
+    },
+    {
+        "timestamp": "2025-06-12T00:10:00Z",
+        "src_ip": "192.168.1.10",
+        "dest_ip": "192.168.1.1",
+        "severity": 1,
+        "category": "INFO"
+    }
+]

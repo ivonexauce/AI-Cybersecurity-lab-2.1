@@ -8,5 +8,5 @@ joblib
 requests
 pyyaml
 docker
-mythril
-slither-analyzer
+# mythril and slither-analyzer excluded due to unresolvable dependency conflicts.
+# Install them manually if needed: pip install mythril slither-analyzer

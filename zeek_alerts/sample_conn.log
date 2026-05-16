@@ -1,2 +1,6 @@
- #fields	ts	uid	id.orig_h	id.resp_h
-        1629987342.123456	C8Zx1j3VQxU9w4fH	192.168.1.2	10.0.0.5
+#separator \x09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	string	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	string
+1629987342.123456	C8Zx1j3VQxU9w4fH	192.168.1.2	54321	10.0.0.5	80	tcp	http	0.123456	1200	3400	SF	false	false	0	ShADadF	10	2400	12	4400	-
+1629987400.789012	AbCdEfGhIjKlMnOp	10.0.0.5	22	203.0.113.50	443	tcp	ssl	2.345678	500	12000	S0	false	false	0	ShAd	5	1000	8	15000	-
+1629987450.345678	QrStUvWxYz123456	10.0.0.10	3389	192.168.1.1	445	tcp	dce_rpc	0.001234	0	0	REJ	false	false	0	R	2	400	1	200	-

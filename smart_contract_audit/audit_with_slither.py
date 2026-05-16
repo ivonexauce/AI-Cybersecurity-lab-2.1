@@ -1,6 +1,24 @@
-# audit_with_slither.py
-        import subprocess
+import subprocess
+import sys
 
-        def audit(file_path):
-            result = subprocess.run(["slither", file_path], capture_output=True, text=True)
-            return result.stdout
+def audit(file_path):
+    try:
+        result = subprocess.run(
+            ["slither", file_path],
+            capture_output=True, text=True, timeout=120
+        )
+        if result.returncode != 0 and result.stderr:
+            return f"Error: {result.stderr.strip()}"
+        return result.stdout or "No issues found."
+    except FileNotFoundError:
+        return "Error: 'slither' not found. Install slither-analyzer."
+    except subprocess.TimeoutExpired:
+        return "Error: Audit timed out."
+    except Exception as e:
+        return f"Error: {e}"
+
+if __name__ == '__main__':
+    if len(sys.argv) < 2:
+        print("Usage: python audit_with_slither.py <contract.sol>")
+        sys.exit(1)
+    print(audit(sys.argv[1]))
